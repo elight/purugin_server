@@ -9,7 +9,7 @@ class OnLoginExperiment
       self.world = e.player.world
       TaskChain.
         task(10) { message_all("pwned") }.
-        task(1)  { message_all("bitch") }
+        task(1)  { message_all("insert_politically_correct_denigrating_word_here") }
     end
   end
 
